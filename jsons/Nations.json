@@ -16,8 +16,8 @@
 		"preferredVictoryType": "Scientific",//胜利偏好
 		"personality": "孙中山",//
 
-		"startIntroPart1": "内容",//开局介绍
-		"startIntroPart2": "内容",//第二段（可删）
+		"startIntroPart1": "驱除鞑虏、‌恢复中华、创立‌民国、‌平均地权！破除封建帝制，跟上世界潮流，先生，您必将带领我们振兴中华！",//开局介绍
+		"startIntroPart2": "测试中，可能不完善",//第二段（可删）
 
 		"declaringWar": "优势在我！",//向玩家宣战
 		"attacked": "为国捐躯赴战场，丹心可并日争光",//被宣战
@@ -49,7 +49,7 @@
 		"personality": "毛泽东",//
 
 		"startIntroPart1": "内容",//开局介绍
-		"startIntroPart2": "内容",//第二段（可删）
+		"startIntroPart2": "测试中，可能不完善",//第二段（可删）
 
 		"declaringWar": "虽远必诛",//向玩家宣战
 		"attacked": "",//被宣战
