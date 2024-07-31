@@ -61,7 +61,7 @@
 
 		"tradeRequest": "振兴实业，兴民强国",//向玩家贸易
 
-		"outerColor": [255,255,1],//主颜色
+		"outerColor": [255,255,255],//主颜色
 		"innerColor": [238,28,37],//字颜色
 		
 		"uniqueName": "Ingenuity",//特性名
