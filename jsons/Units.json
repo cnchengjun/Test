@@ -5,7 +5,7 @@
 		"unitType": "Gunpowder",//分类
 	    "replaces": "Great War Infantry",
 	    "uniqueTo": "中华苏维埃共和国",
-	    "uniques": ["Double movement in [Forest],Double movement in [Mountain]"],
+	    "uniques": ["Double movement in [TerrainFeature],Double movement in [ Mountain ]"],
 		"movement": 3,
 		"strength": 49,
 		"cost": 280,
@@ -15,7 +15,7 @@
 		"attackSound": "shot"
 	},	
 	{
-		"name": "Great War Infantry",
+		"name": "德械师",
 		"unitType": "Gunpowder",
 		"replaces": "Great War Infantry",
 	    "uniqueTo": "中华民国",
