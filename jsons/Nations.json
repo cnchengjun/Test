@@ -11,8 +11,8 @@
 		//国家
 		"name": "中华民国",//国家名称
 		"leaderName": "孙中山",//领导人
-		"adjective": ["三民主义"],//国家形容词
-		//地形偏好（被删除，见下面）
+		"adjective": ["中华民国的"],//国家但是形容词
+		//地形偏好（被删除）
 		"preferredVictoryType": "Scientific",//胜利偏好
 		"personality": "孙中山",//
 
@@ -29,21 +29,20 @@
 
 		"tradeRequest": "振兴实业，兴民强国",//向玩家贸易
 
-		"outerColor": [0,23,255],//主颜色
-		"innerColor": [255,0,0],//字颜色
+		"outerColor": [1,0,148],//主颜色
+		"innerColor": [255,255,255],//字颜色
 		"favoredReligion": "Islam",//喜好宗教
 		"uniqueName": "Ingenuity",//特性名
 		"uniques": ["Free [Great Scientist] appears <upon discovering [Writing] technology>", "[Great Scientist] is earned [50]% faster"],//特性
-		"cities": ["南京","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
+		"cities": ["南京","江西","福建","台湾","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
 			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
 			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
 			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],//城市名，第一个是首都
-        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]//间谍名字
 	},
     
 	//Barbarian
 	{
-		"name": "Barbarians",
+		"name": "叛军",
 		"outerColor": [0,0,0],
         "innerColor": [185,12,12],
 		"uniques": ["Can only heal by pillaging", "Excluded from map editor",
