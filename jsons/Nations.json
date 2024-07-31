@@ -31,7 +31,39 @@
 
 		"outerColor": [1,0,148],//主颜色
 		"innerColor": [255,255,255],//字颜色
-		"favoredReligion": "Islam",//喜好宗教
+		
+		"uniqueName": "Ingenuity",//特性名
+		"uniques": ["Free [Great Scientist] appears <upon discovering [Writing] technology>", "[Great Scientist] is earned [50]% faster"],//特性
+		"cities": ["南京","江西","福建","台湾","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
+			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
+			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
+			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],//城市名，第一个是首都
+	},
+	{
+		//国家
+		"name": "中华苏维埃共和国",//国家名称
+		"leaderName": "毛泽东",//领导人
+		"adjective": ["中华苏维埃共和国的"],//国家但是形容词
+		//地形偏好（被删除）
+		"preferredVictoryType": "Scientific",//胜利偏好
+		"personality": "毛泽东",//
+
+		"startIntroPart1": "内容",//开局介绍
+		"startIntroPart2": "内容",//第二段（可删）
+
+		"declaringWar": "虽远必诛",//向玩家宣战
+		"attacked": "",//被宣战
+		"defeated": "",//被打败
+		"introduction": "你好",//初次见面
+
+		"neutralHello": "革命尚未成功，同志仍需努力",//平时问候
+		"hateHello": "天下大势，浩浩荡荡，顺我者昌，逆我者亡",//战时问候
+
+		"tradeRequest": "振兴实业，兴民强国",//向玩家贸易
+
+		"outerColor": [255,255,1],//主颜色
+		"innerColor": [238,28,37],//字颜色
+		
 		"uniqueName": "Ingenuity",//特性名
 		"uniques": ["Free [Great Scientist] appears <upon discovering [Writing] technology>", "[Great Scientist] is earned [50]% faster"],//特性
 		"cities": ["南京","江西","福建","台湾","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
@@ -42,7 +74,7 @@
     
 	//Barbarian
 	{
-		"name": "叛军",
+		"name": "Barbarians",
 		"outerColor": [0,0,0],
         "innerColor": [185,12,12],
 		"uniques": ["Can only heal by pillaging", "Excluded from map editor",
