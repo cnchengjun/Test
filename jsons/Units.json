@@ -5,7 +5,7 @@
 		"unitType": "Gunpowder",//分类
 	    "replaces": "Great War Infantry",
 	    "uniqueTo": "中华苏维埃共和国",
-	    "uniques": ["Double movement in [TerrainFeature],Double movement in [ Mountain ]"],
+	    "uniques": ["Can move after attacking"],
 		"movement": 3,
 		"strength": 49,
 		"cost": 280,
