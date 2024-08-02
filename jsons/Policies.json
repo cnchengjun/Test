@@ -36,7 +36,7 @@
                     "[+25]% Strength <for [Wounded] units>"
                 ],
                 "row": 1,
-                "column": 10
+                "column": 20
             },
             {
                 "name": "土地改革",
@@ -44,17 +44,17 @@
                     "[+1 Gold, +2 Production, +2 Food] per [2] population [in all cities]"
                 ],
                 "row": 1,
-                "column": 15
+                "column": 40
             },
             {
                 "name": "国际援助",
-                "requires": ["抗日战争,国际地位"],
+                "requires": ["国际地位"],
                 "uniques": [
                     "Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
-                    "Comment [需要“抗日战争和国际地位”]"
+                    "Comment [需要“国际地位”]"
                 ],
                 "row": 2,
-                "column": 5
+                "column": 1
             },
             {
                 "name": "统一中国",
@@ -66,7 +66,7 @@
                     
                 ],
                 "row": 2,
-                "column": 10
+                "column": 20
             },
             {
                 "name": "工业基础建设",
@@ -77,7 +77,7 @@
                     "[+1 Production] from every [Quarry]"
                 ],
                 "row": 2,
-                "column": 15
+                "column": 40
             },
                         {
                 "name": "没做好",
@@ -86,7 +86,7 @@
                     "Comment [请等待更新，敬请期待]"
                 ],
                 "row": 5,
-                "column": 10
+                "column": 20
             },
             {
                 "name": "中国国策树 Complete",
