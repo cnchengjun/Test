@@ -1,6 +1,6 @@
 [
-{
-        "name": "中国特色共产主义",
+    {
+        "name": "中国国策树",
         "era": "Industrial era",
         "priorities": {
             "Neutral": 50,
@@ -10,30 +10,37 @@
             "Scientific": 50
         },
         "uniques": [
-            "[+2 Happiness] [in all cities]",
+            "[+1 Happiness] [in all cities]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>"
+            "Only available <before adopting [Order]>",
+            "Comment [在 19XX 年共产党建立后，中华文明的发展将何去何从？]",
         ],
         "policies": [
             {
-                "name": "土地改革",
+                "name": "国际援助",
+                "requires": ["抗日战争"],
                 "uniques": [
                     "Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
+                    "Comment [需要“抗日战争”]"
                 ],
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "我们联合",
+                "name": "抗日战争",
                 "uniques": [
-                    "[+25]% [Science] from every [Factory]",
-                    "[+100]% Production when constructing [Factory] buildings [in all cities]"
+                    "<when at war>",
+                    "Comment [保家卫国！]"
+                    "Free Social Policy"
+                    "[-33]% maintenance costs <for [All] units>",
+                    "[+25]% Strength <for [Wounded] units>"
                 ],
                 "row": 1,
                 "column": 3
             },
             {
-                "name": "民心所向",
+                "name": "土地改革",
                 "uniques": [
                     "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
                 ],
@@ -41,19 +48,34 @@
                 "column": 5
             },
             {
-                "name": "走向共和",
-                "requires": ["Planned Economy"],
+                "name": "统一中国",
+                "requires": ["抗日战争"],
                 "uniques": [
                     "[-15]% maintenance cost for buildings [in all cities]"
+                    "<upon conquering a city>"
+                    "Free Social Policy"
+                    "Comment [日本被我们打跑了，国民党也打走了，现在，变好了吗？]"
+                    
                 ],
                 "row": 2,
                 "column": 3
             },
             {
-                "name": "Over",
+                "name": "Communism",
+                "requires": ["Socialism"],
+                "uniques": [
+                    "[+2 Production] [in all cities]",
+                    "[+1 Production] from every [Mine]",
+                    "[+1 Production] from every [Quarry]"
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "中国国策树 Complete",
                 "uniques": [
                     "[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
-                    "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                    ""
                 ]
             }
         ]
