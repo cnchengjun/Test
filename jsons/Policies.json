@@ -30,7 +30,6 @@
             {
                 "name": "抗日战争",
                 "uniques": [
-                    "<when at war>",
                     "Comment [保家卫国！]"
                     "Free Social Policy"
                     "[-33]% maintenance costs <for [All] units>",
@@ -52,7 +51,6 @@
                 "requires": ["抗日战争"],
                 "uniques": [
                     "[-15]% maintenance cost for buildings [in all cities]"
-                    "<upon conquering a city>"
                     "Free Social Policy"
                     "Comment [日本被我们打跑了，国民党也打走了，现在，变好了吗？]"
                     
@@ -61,15 +59,15 @@
                 "column": 3
             },
             {
-                "name": "Communism",
-                "requires": ["Socialism"],
+                "name": "工业基础建设",
+                "requires": ["土地改革"],
                 "uniques": [
                     "[+2 Production] [in all cities]",
                     "[+1 Production] from every [Mine]",
                     "[+1 Production] from every [Quarry]"
                 ],
-                "row": 3,
-                "column": 3
+                "row": 2,
+                "column": 5
             },
             {
                 "name": "中国国策树 Complete",
