@@ -69,6 +69,17 @@
                 "row": 2,
                 "column": 5
             },
+                        {
+                "name": "结束了",
+                "requires": ["工业基础建设"],
+                "uniques": [
+                    "[+2 Production] [in all cities]",
+                    "[+1 Production] from every [Mine]",
+                    "[+1 Production] from every [Quarry]"
+                ],
+                "row": 3,
+                "column": 3
+            },
             {
                 "name": "中国国策树 Complete",
                 "uniques": [
