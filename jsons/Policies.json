@@ -14,15 +14,15 @@
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>"
             "Only available <before adopting [Order]>",
-            "Comment [在 19XX 年共产党建立后，中华文明的发展将何去何从？]",
+            "Comment [在19XX年共产党建立后，中华文明的发展将何去何从？]",
         ],
         "policies": [
             {
-                "name": "国际援助",
-                "requires": ["抗日战争"],
+                "name": "国际地位",
                 "uniques": [
-                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
-                    "Comment [需要“抗日战争”]"
+                    "Only available <upon declaring friendship>"
+                    ""
+                    "Comment [受到国际的承认]"
                 ],
                 "row": 1,
                 "column": 1
@@ -31,32 +31,43 @@
                 "name": "抗日战争",
                 "uniques": [
                     "Comment [保家卫国！]"
+                    "Only available <when at war>"
                     "Free Social Policy"
                     "[-33]% maintenance costs <for [All] units>",
                     "[+25]% Strength <for [Wounded] units>"
                 ],
                 "row": 1,
-                "column": 3
+                "column": 10
             },
             {
                 "name": "土地改革",
                 "uniques": [
-                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+                    "[+1 Gold, +2 Production +3 Crop Yield] per [2] population [in all cities]"
                 ],
                 "row": 1,
+                "column": 15
+            },
+            {
+                "name": "国际援助",
+                "requires": ["抗日战争"],
+                "uniques": [
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
+                    "Comment [需要“抗日战争”]"
+                ],
+                "row": 2,
                 "column": 5
             },
             {
                 "name": "统一中国",
                 "requires": ["抗日战争"],
                 "uniques": [
-                    "[-15]% maintenance cost for buildings [in all cities]"
+                    "Only available <when not at war>"
                     "Free Social Policy"
                     "Comment [日本被我们打跑了，国民党也打走了，现在，变好了吗？]"
                     
                 ],
                 "row": 2,
-                "column": 3
+                "column": 10
             },
             {
                 "name": "工业基础建设",
@@ -67,18 +78,16 @@
                     "[+1 Production] from every [Quarry]"
                 ],
                 "row": 2,
-                "column": 5
+                "column": 15
             },
                         {
-                "name": "结束了",
-                "requires": ["工业基础建设"],
+                "name": "没做好",
+                "requires": ["统一中国"],
                 "uniques": [
-                    "[+2 Production] [in all cities]",
-                    "[+1 Production] from every [Mine]",
-                    "[+1 Production] from every [Quarry]"
+                    "Comment [请等待更新，敬请期待]"
                 ],
-                "row": 3,
-                "column": 3
+                "row": 5,
+                "column": 10
             },
             {
                 "name": "中国国策树 Complete",
