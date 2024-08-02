@@ -21,7 +21,6 @@
                 "name": "国际地位",
                 "uniques": [
                     "Only available <upon declaring friendship>"
-                    ""
                     "Comment [受到国际的承认]"
                 ],
                 "row": 1,
@@ -42,7 +41,7 @@
             {
                 "name": "土地改革",
                 "uniques": [
-                    "[+1 Gold, +2 Production +3 Crop Yield] per [2] population [in all cities]"
+                    "[+1 Gold, +2 Production] per [2] population [in all cities]"
                 ],
                 "row": 1,
                 "column": 15
