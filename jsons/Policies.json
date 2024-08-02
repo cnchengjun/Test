@@ -41,17 +41,17 @@
             {
                 "name": "土地改革",
                 "uniques": [
-                    "[+1 Gold, +2 Production] per [2] population [in all cities]"
+                    "[+1 Gold, +2 Production, +2 Food] per [2] population [in all cities]"
                 ],
                 "row": 1,
                 "column": 15
             },
             {
                 "name": "国际援助",
-                "requires": ["抗日战争"],
+                "requires": ["抗日战争,国际地位"],
                 "uniques": [
                     "Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
-                    "Comment [需要“抗日战争”]"
+                    "Comment [需要“抗日战争和国际地位”]"
                 ],
                 "row": 2,
                 "column": 5
