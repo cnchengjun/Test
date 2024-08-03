@@ -20,8 +20,8 @@
             {
                 "name": "国际地位",
                 "uniques": [
-                    "Only available <upon declaring friendship>"
-                    "Comment [受到国际的承认]"
+                    "Only available <after discovering [Radio]>"
+                    "Comment [受到国际的承认，需要无线电技术]"
                 ],
                 "row": 1,
                 "column": 1
@@ -30,6 +30,7 @@
                 "name": "抗日战争",
                 "uniques": [
                     "Comment [保家卫国！]"
+                    "Comment [需要处于战争中，才可以完成该国策]"
                     "Only available <when at war>"
                     "Free Social Policy"
                     "[-33]% maintenance costs <for [All] units>",
@@ -39,19 +40,11 @@
                 "column": 20
             },
             {
-                "name": "土地改革",
-                "uniques": [
-                    "[+1 Gold, +2 Production, +2 Food] per [2] population [in all cities]"
-                ],
-                "row": 1,
-                "column": 40
-            },
-            {
                 "name": "国际援助",
-                "requires": ["国际地位"],
+                "requires": ["国际地位","抗日战争"],
                 "uniques": [
                     "Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
-                    "Comment [需要“国际地位”]"
+                    "Comment [需要“国际地位”和“抗日战争”]"
                 ],
                 "row": 2,
                 "column": 1
@@ -62,11 +55,21 @@
                 "uniques": [
                     "Only available <when not at war>"
                     "Free Social Policy"
+                    "Comment [需要不处于战争中，才可以完成该国策]"
                     "Comment [日本被我们打跑了，国民党也打走了，现在，变好了吗？]"
                     
                 ],
                 "row": 2,
                 "column": 20
+            },
+                        {
+                "name": "土地改革",
+                "requires": ["统一中国"],
+                "uniques": [
+                    "[+1 Gold, +2 Production, +2 Food] per [2] population [in all cities]"
+                ],
+                "row": 3,
+                "column": 40
             },
             {
                 "name": "工业基础建设",
@@ -76,7 +79,7 @@
                     "[+1 Production] from every [Mine]",
                     "[+1 Production] from every [Quarry]"
                 ],
-                "row": 2,
+                "row": 4,
                 "column": 40
             },
                         {
